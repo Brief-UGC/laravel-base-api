@@ -14,11 +14,4 @@ export const HTTP_STATUS_CODE = {
   HTTP_UNPROCESSABLE_ENTITY: 422
 }
 
-export const QUERY_KEYS = {
-  AUTH_SIGN_UP: 'auth_sign_up',
-  AUTH_LOGIN: 'auth_login',
-  AUTH_LOGOUT: 'auth_logout',
-  AUTH_CURRENT_INFORMATION: 'auth_current_information',
-  AUTH_UPDATE_CURRENT_INFORMATION: 'auth_update_current_information',
-  AUTH_UPDATE_CURRENT_PASSWORD: 'auth_update_current_password',
-}
+export const QUERY_KEYS = {}

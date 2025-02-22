@@ -1,3 +1,5 @@
+import httpClient from './http-client'
+
 export {
   DEFAULT_REQUEST_TIMEOUT_IN_MS,
   DEFAULT_COOKIE_AUTH_TOKEN_KEY,
@@ -11,3 +13,5 @@ export {
   setAuthTokenCookie,
   removeAuthTokenCookie
 } from './auth-cookie'
+
+export { httpClient }

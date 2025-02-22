@@ -14,7 +14,7 @@ const routes: readonly RouteRecordRaw[] = [
   {
     path: '/dashboard',
     name: 'dashboard',
-    component: () => import('@/pages/Shared/DashboardPage.vue')
+    component: () => import('@/pages/DashboardPage.vue')
   }
 ]
 
