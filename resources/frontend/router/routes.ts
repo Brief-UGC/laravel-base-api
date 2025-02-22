@@ -7,11 +7,6 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('@/pages/Auth/LoginPage.vue')
   },
   {
-    path: '/sign-up',
-    name: 'signUp',
-    component: () => import('@/pages/Auth/SignUpPage.vue')
-  },
-  {
     path: '/forget-password',
     name: 'forgetPassword',
     component: () => import('@/pages/Auth/ForgetPasswordPage.vue')
